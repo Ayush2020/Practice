@@ -2,9 +2,9 @@
 
 # WAP to check that the given character is upper case if yes return lower case else return uppecase
 
-str = input("Enter the String : ")
+char = input("Enter the Char: ")
 
-if str == str.upper():
-    print(str.lower())
+if "a" <= char <= "z":
+    print(chr(ord(char) - 32))
 else:
-    print(str.upper())
+    print(chr(ord(char) + 32))
