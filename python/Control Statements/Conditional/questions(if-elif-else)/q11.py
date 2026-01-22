@@ -3,4 +3,4 @@ str = input("Enter a string: ")
 if not str[-1].isalnum():
     print("special character")
 else:
-    print("special character")
+    print("Not special character")
