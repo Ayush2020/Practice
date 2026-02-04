@@ -18,7 +18,8 @@
 #   print(f"2 * {i} = {2 *i}")
 #   i += 1
 
-i = ord("A")
-while i <= 90:
-  print(chr(i), end=" ")
-  i+=1
+# i = ord("A")
+# while i <= 90:
+#   print(chr(i), end=" ")
+#   i+=1
+
