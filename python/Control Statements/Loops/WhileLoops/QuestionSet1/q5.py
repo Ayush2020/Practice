@@ -11,6 +11,7 @@ while i < len(s):
         letter.add(ch)
     i+=1
 
+
 if len(letter) == 26:
     print("panagram")
 else:

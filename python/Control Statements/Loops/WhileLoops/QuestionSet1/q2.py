@@ -1,13 +1,17 @@
-
 # Check that a string is pallindrome or not without using slicing and inbuilt functino
 
-strr = input("enter a String: ")
-i = 0
 
-while i < len(strr):
-    if strr[i] != strr[len(strr) - 1 - 1]:
-        print("Not a pallindrome")
-        break
-    i+=1
+strr = input("enter the string:")
+
+i = len(strr) - 1
+rev =""
+
+while i >= 0:
+    rev += strr[i]
+    i-=1
+
+print(rev)
+if strr == rev :
+    print("pallindrome")
 else:
-    print(" Pallindrome")
+    print("Not ")
