@@ -1,6 +1,6 @@
 #Check given string is panagram
 
-s =  "the quick brown fox jumps over the lazy dog"
+s = "the quick brown fox jumps over the lazy dog"
 s = s.lower()
 
 letter = set()
@@ -11,7 +11,7 @@ while i < len(s):
         letter.add(ch)
     i+=1
 
-
+print(letter)
 if len(letter) == 26:
     print("panagram")
 else:
