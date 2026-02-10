@@ -8,3 +8,12 @@ for i in range(len(s)):
         dictt[s[i]] = ord(s[i])
 
 print(dictt)
+
+
+
+
+
+
+
+
+
