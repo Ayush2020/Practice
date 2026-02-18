@@ -1,8 +1,5 @@
-def add(a,b):
-  return a + b
+def salHike(salary):
+  newsalary = salary + 10000
+  # return newsalary
 
-
-a = add(1,2)
-print(a)
-
-
+print(salHike(20000))
