@@ -6,7 +6,7 @@ num = int(input("Enter the Number--> "))
 ls = []
 
 
-def strong_num(num):
+def perfect_num(num):
   i = 1
   summ = 0
   while i < num:
@@ -21,4 +21,4 @@ def strong_num(num):
   else:
     return "Not"
   
-print(strong_num(num))
+print(perfect_num(num))
