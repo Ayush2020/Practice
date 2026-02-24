@@ -26,5 +26,5 @@
 
 
 # (lambda x : print(x**2))(3)
-sqr = lambda *x : {i**2 : i**3 for i in x if i  % 2 == 0}
-print(sqr(1,2,3,4,5))
+# sqr = lambda *x : {i**2 : i**3 for i in x if i  % 2 == 0}
+# print(sqr(1,2,3,4,5))
