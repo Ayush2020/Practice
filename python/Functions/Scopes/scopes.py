@@ -22,7 +22,6 @@
 
 
 
-
 #//! Non-Local vars:---> the variable which access inside the nested blocks
 
 # def func():

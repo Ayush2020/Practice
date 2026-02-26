@@ -1,5 +1,5 @@
-#Variable length kewyword argument (**kwargs)
-#To tak e multiple keywords args with values from user and pack them in a form of dictionary
+#Variable length keyword argument (**kwargs)
+#To take multiple keywords args with values from user and pack them in a form of dictionary
 
 # def func(**kwargs):
 #   total_bill = 0
